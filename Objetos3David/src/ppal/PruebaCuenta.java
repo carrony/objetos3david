@@ -32,7 +32,8 @@ public class PruebaCuenta {
 		c4.retirar(850);
 		System.out.println("El saldo es "+c4.getCantidad());
 		
-		
+		System.out.println("El crédito máximo de la cuentas es " 
+					+Cuenta.MAXCREDITO);
 		
 		
 	}
